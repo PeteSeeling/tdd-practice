@@ -12,8 +12,10 @@ Output:
 
 */
 
-export function addExclamationPoints() {
-    return true;
+
+export function addExclamationPoints
+(someString) {
+ return `${someString}!!!`;
 }
 
 // This function should take in a number and multiply it by seven
@@ -160,3 +162,5 @@ export function getLastItem(array) {
 export function getRandomNumber() {
     return true;
 }
+
+
