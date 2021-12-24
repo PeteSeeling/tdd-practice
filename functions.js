@@ -13,9 +13,8 @@ Output:
 */
 
 
-export function addExclamationPoints
-(someString) {
- return `${someString}!!!`;
+export function addExclamationPoints(someString) {
+    return `${someString}!!!`;
 }
 
 // This function should take in a number and multiply it by seven
@@ -30,8 +29,12 @@ Output:
 28 
 */
 
-export function multiplyBySeven(num) {
-    return true;
+export function multiplyBySevenDivide(num) {
+    const times = Math.floor(Math.random() * 7) / 2;
+    
+    console.log(times);
+    return times;
+
 }
 
 // This function should take in a number and multiply it by seven then cut the result in half

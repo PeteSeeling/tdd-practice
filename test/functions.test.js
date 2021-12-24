@@ -10,9 +10,9 @@
 //});
 
 import {
-     addExclamationPoints, multiplyBy12ThenHalve, multiplyBySeven,} from '../functions.js';
+    addExclamationPoints, multiplyBy12ThenHalve, multiplyBySeven } from '../functions.js';
 
-const {test, skip} = QUnit;
+const { test, skip } = QUnit;
 
 test('test should retrun string with three exclamation points added to the end of it', (expect) => {
     const expected1 = 'puppy!!!';
@@ -20,10 +20,10 @@ test('test should retrun string with three exclamation points added to the end o
     const expected2 = 'guppy!!!';
     const actual2 = addExclamationPoints ('guppy');
 
-    expect.equal(actual1, expected1,)
-    expect.equal(actual2, expected2,)
+    expect.equal(actual1, expected1,);
+    expect.equal(actual2, expected2,);
 
-})
+});
 
 test('test should return a number that is multiplied by 7', (expect) => {
     const expected1 = 1;
